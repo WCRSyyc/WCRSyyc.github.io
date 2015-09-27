@@ -1,5 +1,34 @@
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #ddd;
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; /* define a default typeface */
+  line-height: 1.4em;
+}
+
+#container {
+  margin: 0 auto 0;
+  width: 70%;
+  margin: 3rem auto 0; /* add space around floating page */
+  box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.3);
+  padding 0;
+  background-color: #fff;
+}
+
+#container article {
+  padding: 2rem;
+}
+
+#container footer {
+  margin: 0;
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: #838484;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 1.3em;
+}
+
+#container footer a {
+  color: #ccf;  /* make links in the footer apear clearer */
 }
