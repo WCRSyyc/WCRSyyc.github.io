@@ -5,22 +5,28 @@ body {
   padding: 0;
   background-color: #ddd;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; /* default typeface */
-  line-height: 1.4em;
+  line-height: 1.6em;
 }
 
 #container header, #container main, #container footer, #container article {
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
 }
 
 /* content style */
 
 #container {
-  width: 70%;
+  max-width: 65rem;
   margin: 3rem auto 0; /* adds space around floating page */
   /*margin: 3rem auto;*/  /* alternative to above */
   box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.3);
   padding: 0;
   background-color: #fff;
+}
+
+@media all and (max-width: 70rem) {
+  #container {
+    margin: 0 auto;
+  }
 }
 
 h1, h2, h3 {
@@ -31,7 +37,7 @@ h1, h2, h3 {
 
 #site_navigation {
   display: block;
-  margin: 1rem 0 1rem;
+  margin: 2rem 0;
   border-top: 1px #ddd solid;
   border-bottom: 1px #ddd solid;
   padding: 0;
@@ -41,6 +47,13 @@ h1, h2, h3 {
 #site_navigation li {
   display: inline-block;
   margin-right: 2em;
+}
+
+@media all and (max-width: 43rem) {
+  #site_navigation li {
+    display: block;
+    text-align: center;
+  }
 }
 
 #site_navigation a {
