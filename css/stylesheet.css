@@ -1,17 +1,23 @@
+/* global style */
+
 body {
   margin: 0;
   padding: 0;
   background-color: #ddd;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; /* define a default typeface */
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; /* default typeface */
   line-height: 1.4em;
+}
+
+#container header, #container main, #container footer, #container article {
+  padding: 1rem 2rem;
 }
 
 /* content style */
 
 #container {
   width: 70%;
-  /*margin: 3rem auto;*/
-  margin: 3rem auto 0; /* add space around floating page */
+  margin: 3rem auto 0; /* adds space around floating page */
+  /*margin: 3rem auto;*/  /* alternative to above */
   box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.3);
   padding: 0;
   background-color: #fff;
@@ -21,13 +27,9 @@ h1, h2, h3 {
   color: #838384;
 }
 
-/* header style */
+/* site navigation bar style */
 
-#container header {
-  padding: 1rem 2rem 0;
-}
-
-#container header #site_navigation {
+#site_navigation {
   display: block;
   margin: 1rem 0 1rem;
   border-top: 1px #ddd solid;
@@ -36,27 +38,28 @@ h1, h2, h3 {
   list-style: none;
 }
 
-#container header #site_navigation li {
+#site_navigation li {
   display: inline-block;
   margin-right: 2em;
 }
 
-#container header #site_navigation a {
+#site_navigation a {
   display: inline-block;
-  padding: 0.5em 0 0.5em;  /* make area around links also clickable */
+  padding: 0.5em 0 0.5em;  /* makes area around links clickable */
   color: #838484;
   text-decoration: none;
 }
 
-
-#container header #site_navigation a:hover {
+#site_navigation a:hover {
   color: #000;
 }
 
 /* optional style for a navigation link to the current page (marked using the class `__current`) */
-#container header #site_navigation a.__current {
+#site_navigation a.__current {
   font-weight: bold;
 }
+
+/* header image style */
 
 #container header #header_image {
   max-width: 100%;
@@ -66,15 +69,10 @@ h1, h2, h3 {
 
 /* main content style */
 
-#container article {
-  padding: 2rem;
-}
-
 /* footer style */
 
 #container footer {
-  margin: 0;
-  padding: 1rem 2rem;
+  margin-top: 1rem;
   color: #fff;
   background-color: #838484;
   text-align: center;
