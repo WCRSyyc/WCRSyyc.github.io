@@ -6,18 +6,71 @@ body {
   line-height: 1.4em;
 }
 
+/* content style */
+
 #container {
-  margin: 0 auto 0;
   width: 70%;
+  /*margin: 3rem auto;*/
   margin: 3rem auto 0; /* add space around floating page */
   box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.3);
-  padding 0;
+  padding: 0;
   background-color: #fff;
 }
+
+h1, h2, h3 {
+  color: #838384;
+}
+
+/* header style */
+
+#container header {
+  padding: 1rem 2rem 0;
+}
+
+#container header #site_navigation {
+  display: block;
+  margin: 1rem 0 1rem;
+  border-top: 1px #ddd solid;
+  border-bottom: 1px #ddd solid;
+  padding: 0;
+  list-style: none;
+}
+
+#container header #site_navigation li {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+#container header #site_navigation a {
+  display: inline-block;
+  padding: 0.5em 0 0.5em;  /* make area around links also clickable */
+  color: #838484;
+  text-decoration: none;
+}
+
+
+#container header #site_navigation a:hover {
+  color: #000;
+}
+
+/* optional style for a navigation link to the current page (marked using the class `__current`) */
+#container header #site_navigation a.__current {
+  font-weight: bold;
+}
+
+#container header #header_image {
+  max-width: 100%;
+  border-radius: 3px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* main content style */
 
 #container article {
   padding: 2rem;
 }
+
+/* footer style */
 
 #container footer {
   margin: 0;
