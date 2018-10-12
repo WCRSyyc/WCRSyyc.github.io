@@ -1,13 +1,15 @@
-# Number bases #
+# Introduction to Number bases #
 ###### Don Greer 2018-09-01 ######
-# Introduction #
 
 Imagine a bucket full of marbles.
 If I told you that there were one thousand two hundred and thirty four marbles in the bucket, you would know that they could be grouped into four groups of 1000, three groups of one hundred, one group of ten and four single marbles. Just the way you did it in kindergarten.
+
 Now if I had told you the number of marbles in French, how many marbles would there be then ? (hint: the number of marbles didn’t change, just the way I communicated the quantity to you changed.)
+
 What if I had told you in Swahili or Arabic?
 How about if I told you in Roman numerals?   (MCCXXXIV)
 What if I told you the quantity of marbles in base 2 (binary) or base 8 (octal), or base 16 (hexadecimal) or even base 60? ( side bar: base 60 is still a thing, consider how many minutes there are in an hour.)
+
 In each case: The number of marbles didn’t change, just the way that I communicated that quantity to you changed.
 Lets talk about some different ways to describe numerical quantities.
 # BASE 10 or the Decimal system #
@@ -28,8 +30,10 @@ One of the characteristics about our base 10 number system is that there are 10 
 But now lets go on a little side trip to the planet Cartoonious!
 # Base 8 or Octal #
 This planet is named Cartoonious because the discoverers were reminded of the Saturday morning cartoons that they watched as kids. Did you ever notice that many cartoon characters only have three fingers and a thumb on each hand? Actually the real name of the planet is Octal but I think that Cartoonus is neater don’t you?
+
 Lets think about how they count on planet Cartoonius:
 When they hold up both hands and you count the number of fingers and thumbs (digits), you only get to eight. Because of this they never invented any symbols for what would be eight and nine in the decimal system. They go directly from seven to what would look like the two digit number ten to us.
+
 Remember that this is base 8 and these symbols mean something different than what you are used to!
 This is how they would count compared to its equivalent in base 10:
 
@@ -103,7 +107,7 @@ The colons are just there to improve readability and to help the reader keep tra
 Lets go adventuring again! Off to the planet Rudolphus!
 # Base 2 or Binary #
 The planet Rudolphus is a very strange place, the Rudolphuians don't have any fingers so they count with their nose. It was named after the famous Christmas reindeer and like Rudolph; they can make their nose glow. When they are counting, they leave their nose dark for a zero and light it up for a one. (Lets all take a brief break so we can all sing the Rudolphus national anthem: Rudolph the Red Nosed Reindeer).
-The Rudolphuians do not have any symbols for any digits other  than zero and one, so they count like this
+The Rudolphuians do not have any symbols for any digits other  than zero and one, so they count like this:
 
 | base | sequence |
 | --- | --- |
@@ -112,7 +116,7 @@ The Rudolphuians do not have any symbols for any digits other  than zero and one
 
 When I asked them how many marbles in my bucket they answered
 
- 100 1101 0010. (The extra spaces are put there just to improve readability like putting commas in a big decimal number.)
+ 100 1101 0010. (The extra spaces are put there just to improve readability, like putting commas in a big decimal number.)
 
 How did they come up with this? Again the first column in the following chart is the digits in the number provided by the Rudolphuians and because it is base two we are using powers of two in the second column.
 
@@ -138,13 +142,16 @@ So yes 100 1101 0010(base 2) means the same as 1234(base 10). Don’t forget: We
 Its time to go adventuring through space and time again. Lets look at the internet address on your computer.
 
 # Dotted decimal notation #
-Yet another way to write numbers: The Internet  IP protocols are based on 32 bit binary numbers. The developers knew that they would be using a lot of 32 bit numbers and wanted an easy way to work with them. They apparently did not want to use letters for numbers the way I did when translating numbers from the planet Hexadecimal so they invented yet another way to represent 32 bit numbers  IE numbers between 0 and 2^32-1 inclusive, or as the Hexians like to say:
-numbers between 0 and FF FF FF FF(base 16)
-If you look at the network ip address on your cell phone or  on your desktop computer you will probably see a number something like this:
+Here is yet another way to write numbers and it does not use letters for numbers the way I did when translating numbers from the planet Hexadecimal.
+
+ When you are working with IPv4 (Internet Protocol version 4) you are often working with 32 bit binary numbers.  for example: Internet addresses in IPv4 are values between 0 and 2^32-1 inclusive, or as the Hexians like to say:
+numbers between 0 and FF FF FF FF (base 16).
+
+If you look at the network IP address on your cell phone or on your desktop computer you will probably see a number something like this:
 
 192.168.0.100
 
-what is going on here?
+What is going on here?
 Each of the four numbers separated by the dots can have a value between 0 and 255 inclusive. This is base 256. They are using one to three decimal digits to give the value in each position and using dots to separate the values:
 
 | base | sequence |
