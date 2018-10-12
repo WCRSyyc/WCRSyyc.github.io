@@ -109,6 +109,7 @@ The Rudolphuians do not have any symbols for any digits other  than zero and one
 | --- | --- |
 | binary | 0, 1, 10, 11, 100, 101 |
 | Decimal | 0, 1, 2, 3, 4, 5 |
+
 When I asked them how many marbles in my bucket they answered
 
  100 1101 0010. (The extra spaces are put there just to improve readability like putting commas in a big decimal number.)
@@ -131,6 +132,7 @@ How did they come up with this? Again the first column in the following chart is
 | 1 | * 2^1 | = 2 | 1 groups of 2	|	2 to the power of one is 2 |
 | 0 | * 2^0 | = 0 | 0 groups of one | 2 to the power of zero is 1 |
 | | sum  | 1234 |
+
 So yes 100 1101 0010(base 2) means the same as 1234(base 10). Don’t forget: We didn’t change the number of marbles in the bucket, just the way we described it.  The extra spaces are there only to improve readability, much like adding commas to a large number in base 10.
 
 Its time to go adventuring through space and time again. Lets look at the internet address on your computer.
