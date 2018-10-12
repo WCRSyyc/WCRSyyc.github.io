@@ -2,12 +2,12 @@
 ###### Don Greer 2018-09-01 ######
 
 Imagine a bucket full of marbles.
-If I told you that there were one thousand two hundred and thirty four marbles in the bucket, you would know that they could be grouped into four groups of 1000, three groups of one hundred, one group of ten and four single marbles. Just the way you did it in kindergarten.
+If I told you that there were one thousand two hundred and thirty four marbles in the bucket, you would know that they could be grouped into one group of one thousand marbles, two groups of one hundred marbles, three groups of ten marbles and four single marbles. Just the way you did it in kindergarten.
 
 Now if I had told you the number of marbles in French, how many marbles would there be then ? (hint: the number of marbles didn’t change, just the way I communicated the quantity to you changed.)
 
-What if I had told you in Swahili or Arabic?
-How about if I told you in Roman numerals?   (MCCXXXIV)
+What if I had told you in Swahili or Arabic? How about if I told you in Roman numerals?   (MCCXXXIV)
+
 What if I told you the quantity of marbles in base 2 (binary) or base 8 (octal), or base 16 (hexadecimal) or even base 60? ( side bar: base 60 is still a thing, consider how many minutes there are in an hour.)
 
 In each case: The number of marbles didn’t change, just the way that I communicated that quantity to you changed.
