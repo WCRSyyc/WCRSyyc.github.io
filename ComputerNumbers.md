@@ -210,8 +210,8 @@ Do you see that the conversion is much harder to/from base 10, but that conversi
 
 Note: the new IPv6 will use HEX instead of dotted decimal notation for network addresses (if and when it finally becomes popular).
 
-# Using numbers written in other bases your programs #
-In C and in C++ programming languages, this is how it is done:
+# Using numbers written in other bases in your programs #
+In the C and C++ programming languages, this is how it is done:
 
 | Source Code | Compiled |
 | --- | --- |
