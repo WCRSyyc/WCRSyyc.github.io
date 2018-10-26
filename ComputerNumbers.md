@@ -16,11 +16,11 @@ Lets talk about some different ways to describe numerical quantities.
 If I told you that there were one thousand two hundred and thirty four marbles in the bucket, you would know that there were:  (The first column in the following chart is the decimal digit, it is multiplied by a power of ten because this is base ten)
 
 | digit | multiplier | product | note | explanation |
-| --- | --- | ---: | --- | --- |
+| ---: | --- | ---: | --- | --- |
 | 1 | * 10^3 |  = 1000	|	one group of 1000 |	10 to the power of three is 1000
 | 2 | * 10^2 | = 200 | two groups of 100 |	10 to the power of two is 100
 | 3 | * 10^1 | = 30	|	three groups of 10 |	10 to the power of one is 10
-|4 | * 10^0 | = 4	|	four groups of one | 10 to the power of zero is one
+| 4 | * 10^0 | = 4	|	four groups of one | 10 to the power of zero is one
 | | sum | 1234 |
 
 This is way too easy: We have all been using base ten since before we started school. Humans probably developed base 10 because they started counting on their fingers and there are ten of those (if you include your thumbs).
@@ -47,11 +47,11 @@ When I asked them how many marbles were in the bucket: they said that there were
 Lets convert this base 8 number to a base ten number: (The first column in the following chart is the number they gave broken down by column and because this is base eight we use powers of eight in the second column.)
 
 | digit | multiplier | product | note | explanation |
-| --- | --- | ---: | --- | --- |
+| ---: | --- | ---: | --- | --- |
 | 2 | * 8^3 | = 1024 | two groups of 512	|	8 to the power of three is 512 |
 | 3 | * 8^2 | = 192 | three groups of 64 |8 to the power of two is 64 |
 | 2 | * 8^1 | = 16 | two groups of eight	|	8 to the power of one is 8 |
-|2 | * 8^0 | = 2 | two groups of one | 8 to the power of zero
+| 2 | * 8^0 | = 2 | two groups of one | 8 to the power of zero
 | | sum | 1234 |
 
 So yes, `2322`(base 8) means the same as `1234`(base 10). Remember: We didn’t change the number of marbles in the bucket, just the way we described it.
@@ -68,7 +68,7 @@ The convention when printing base 60 is that instead of inventing 50 new symbols
 Because of the colons you could get away with dropping the leading zero in some fields and only using a single digit (for example `12:5:30`) but the usual convention is to always print the leading zero so that you have two digits for the minutes and seconds. The leading zeros are usually dropped in a similar situation in dotted decimal notation. (coming soon)
 
 ## Base 16 or Hexadecimal
-Lets take a trip to the planet Hexadecimal. It was named this because an evil witch put a spell on the people there and caused them all to have seven fingers and a thumb on each hand! When they hold up both hands and you count all of the fingers and thumbs, you get sixteen.
+Lets take a trip to the planet Hexian. It was named this because an evil witch put a spell on the people there and caused them all to have seven fingers and a thumb on each hand! When they hold up both hands and you count all of the fingers and thumbs, you get sixteen.
 When you ask them how many marbles are in the bucket they answer like this
 
 **Red Alert arm the PHASERS, we have a problem here**
@@ -91,7 +91,7 @@ Remember that `A` here is the symbol for the quantity `10` (base 10) and `F` is 
 When I asked them how many marbles were in the bucket they said that there were `04D2` marbles. Lets see how this works: (because this is base 16 we use powers of 16 in the second column)
 
 | digit | multiplier | product | note | explanation |
-| --- | --- | ---: | --- | --- |
+| ---: | --- | ---: | --- | --- |
 | 0 | * 16^3 | = 0 | zero groups of 4096 | 16 to the power of three is 4096 |
 | 4 | * 16^2 | = 1024 | four groups of 256 | 16 to the power of two is 256 |
 | D | * 16^1 | = 208 | 13 groups of 16 | 16 to the power of one is 16 |
@@ -122,16 +122,16 @@ When I asked them how many marbles are in my bucket they answered `100 1101 0010
 How did they come up with this? Again the first column in the following chart contains the digits in the number provided by the Rudolphians and because it is base two we are using powers of two in the second column.
 
 | digit | multiplier | product | note | explanation |
-| --- | --- | ---: | --- | --- |
+| ---: | --- | ---: | --- | --- |
 | 1 | * 2^10 | = 1024 | 1 groups of 1024 |2 to the power of ten is 1024 |
 | 0 | * 2^9 | = 0 | 0 groups of 512 |	2 to the power of nine is 512 |
 | 0 | * 2^8 | = 0 | 0 groups of 256 |	2 to the power of eight is 256 |
-| |
+|&nbsp;|
 | 1 | * 2^7 | = 128 | 1 groups of 128	| 2 to the power of seven is 128 |
 | 1 | * 2^6 | = 64 | 1 groups of 64	|	2 to the power of six is 64|
 | 0 | * 2^5 | = 0 | 0 groups of 32 | 2 to the power of five is 32|
 | 1 | * 2^4 | = 16 | 1 groups of 16	|	2 to the power of four is 16|
-| |
+|&nbsp;|
 | 0 | * 2^3 | = 0 | 1 groups of 8	|	2 to the power of three is 8|
 | 0 | * 2^2 | = 0 |0 groups of 4 | 2 to the power of two is 4 |
 | 1 | * 2^1 | = 2 | 1 groups of 2	|	2 to the power of one is 2 |
@@ -155,8 +155,8 @@ If you look at the network IP address on your cell phone or on your desktop comp
 What is going on here?
 Each of the four numbers separated by the dots can have a value between 0 and 255 inclusive. This is base 256. They are using one to three decimal digits to give the value in each position and using dots to separate the values:
 
-| base | sequence ||||
-| --- | --- | --- | --- | --- |
+| value | sequence ||||
+| ---: | --- | ---: | --- | --- |
 | 192 | * 256^3 | =   3221225472 | 192 groups of 16777216| 	256 to the power of three is 16777216 |
 | 168 | * 256^2 | = 11010048 | 168 groups of 65536 |	256 to the power of two is 65536 |
 | 0 | * 256^1 | = 0 | 0 groups of 256	|	256 to the power of one is 256 |
@@ -179,13 +179,13 @@ You probably know that inside a computer everything is done in binary, but you m
 |---|---:|---:|---:|---:|
 | Hex | 0 | 1 | 2 | 3 |
 | Binary | 0000 | 0001 | 0010 | 0011 |
-||
+|&nbsp;|
 | Hex | 4 | 5 | 6 | 7 |
 | Binary | 0100 | 0101 | 0110 | 0111 |
-||
+|&nbsp;|
 | Hex | 8 | 9 | A | B |
 | Binary | 1000 | 1001 | 1010 | 1011 |
-||
+|&nbsp;|
 | Hex | C | D | E | F |
 | Binary | 1100 | 1101 | 1110 | 1111 |
 
@@ -194,7 +194,7 @@ You may want to cut this table out and post it on your refrigerator (tell your m
 Now look at these example conversions:
 
 |Hex | Binary | Dotted decimal notation | Decimal |
-| --- | --- | --- | --- |
+| ---: | ---: | ---: | ---: |
 | 04D2 | 0000 0100 1101 0010 | 0.4.13.2 | 1234 |
 | C0:A8:00:64 |  1100 0000  1010 1000  0000 0000  0110 0100  |192.168.0.100 | 3232235620 |
 
