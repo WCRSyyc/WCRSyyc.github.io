@@ -10,3 +10,4 @@ Links to various WCRS pages and the related projects
   * [Experimenters Kit](https://wcrsyyc.github.io/ardx/)
   * [Blinky Bots](https://wcrsyyc.github.io/diy-blinky-bot/)
   * [Xylophone](https://wcrsyyc.github.io/xylophone/)
+* [main wiki](https://github.com/WCRSyyc/WCRSyyc.github.io/wiki) for WCRSyyc
