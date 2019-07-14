@@ -1,5 +1,5 @@
-﻿# Introduction to Number bases
-###### Don Greer 2018-09-01
+# Introduction to Number bases
+<!-- ###### Don Greer 2018-09-01 -->
 
 Imagine a bucket full of marbles.
 If I told you that there were one thousand two hundred and thirty four marbles in the bucket, you would know that they could be grouped into one group of one thousand marbles, two groups of one hundred marbles, three groups of ten marbles and four single marbles. Just the way you did it in kindergarten.
